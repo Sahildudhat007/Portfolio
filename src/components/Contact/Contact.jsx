@@ -17,8 +17,8 @@ function Contact() {
         e.preventDefault()
 
         emailjs.sendForm(
-            'service_bg7tu2f',        // Replace this
-            'template_17crjn8',       // Replace this
+            'service_6pip59h',
+            'template_17crjn8',
             form.current,
             'JBYBql5KofvPuQ-Zu'
         ).then(
