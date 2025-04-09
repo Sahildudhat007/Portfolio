@@ -18,7 +18,7 @@ export const projectsData = [
         image: Cullam,
         title: "Cullam",
         category: "B",
-        link: "https://callum-5r1n.vercel.app/",
+        link: "https://callum-blush.vercel.app/",
     },
     {
         id: 3,
@@ -32,7 +32,7 @@ export const projectsData = [
         image: Wisty,
         title: "Wisty",
         category: "D",
-        link: "https://cara-mhyg.vercel.app/",
+        link: "https://wristy.vercel.app/",
     },
     {
         id: 5,
