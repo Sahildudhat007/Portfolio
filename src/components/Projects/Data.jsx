@@ -4,7 +4,6 @@ import Ninico from "../../assets/ninico.jpg";
 import Wisty from "../../assets/wisty.jpeg";
 import Wedplan from "../../assets/Wedplan.webp";
 
-
 export const projectsData = [
     {
         id: 1,

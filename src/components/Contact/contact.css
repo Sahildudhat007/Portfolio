@@ -107,7 +107,6 @@
     resize: none;
 }
 
-/* BREAK POINTS */
 @media screen and (max-width: 992px) {
     .contact__container {
         column-gap: 3rem;

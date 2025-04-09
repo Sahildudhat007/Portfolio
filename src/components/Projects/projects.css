@@ -70,13 +70,11 @@
     transform: translateX(0.25rem);
 }
 
-/* ACTIVE PROJECT */
 .active__project {
     background-color: var(--title-color);
     color: var(--container-color);
 }
 
-/* BREAK POINTS */
 @media screen and (max-width: 992px) {
     .project__container {
         gap: 1.25rem;

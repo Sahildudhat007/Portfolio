@@ -8,7 +8,6 @@ import CV from "../../assets/Example-Cv.pdf"
 // css
 import "./about.css"
 
-
 function About() {
     return (
         <>

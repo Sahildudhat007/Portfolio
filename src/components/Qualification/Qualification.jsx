@@ -87,10 +87,6 @@ function Qualification() {
                                 <div>
                                     <h3 className="qualification__title">No Experience</h3>
                                     <span className="qualification__subtitle">Fresher</span>
-                                    {/* <div className="qualification__calendar">
-                                    <HiOutlineCalendar className="qualification__calendar-icon" />
-                                    2012-2015
-                                </div> */}
                                 </div>
                                 <div>
                                     <span className="qualification__rounder"></span>
@@ -105,42 +101,9 @@ function Qualification() {
                                 </div>
                                 <div>
                                     <h3 className="qualification__title">Fresher</h3>
-                                    {/* <span className="qualification__subtitle">Discord</span>
-                                <div className="qualification__calendar">
-                                    <HiOutlineCalendar className="qualification__calendar-icon" />
-                                    2015-2016
-                                </div> */}
                                 </div>
                             </div>
-                            <div className="qualification__data">
-                                {/* <div>
-                                <h3 className="qualification__title">UX Designer</h3>
-                                <span className="qualification__subtitle">Apple Inc</span>
-                                <div className="qualification__calendar">
-                                    <HiOutlineCalendar className="qualification__calendar-icon" />
-                                    2016-2022
-                                </div>
-                            </div> */}
-                                {/* <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div> */}
-                            </div>
-                            {/* <div className="qualification__data">
-                            <div></div>
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-                            <div>
-                                <h3 className="qualification__title">Senior Developer</h3>
-                                <span className="qualification__subtitle">Freelance - Remote</span>
-                                <div className="qualification__calendar">
-                                    <HiOutlineCalendar className="qualification__calendar-icon" />
-                                    2019-Present
-                                </div>
-                            </div>
-                        </div> */}
+                            <div className="qualification__data"></div>
                         </div>
                     </div>
                 </div>

@@ -50,7 +50,6 @@
     font-size: var(--smaller-font-size);
 }
 
-/* BREAK POINTS */
 @media screen and (max-width: 992px) {
     .skills__container {
         grid-template-columns: max-content;

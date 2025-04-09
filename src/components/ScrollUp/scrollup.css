@@ -19,12 +19,10 @@
     background-color: var(--title-color-dark);
 }
 
-/* SHOW SCROLL */
 .show-scroll {
     bottom: 3rem;
 }
 
-/* BREAK POINTS */
 @media screen and (max-width: 992px) {
     .scrollup {
         right: 1.5rem;

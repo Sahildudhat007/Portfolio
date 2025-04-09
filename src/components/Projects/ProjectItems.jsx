@@ -1,5 +1,6 @@
 import React from 'react'
 
+// react icon
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 
 function ProjectItems({ item }) {

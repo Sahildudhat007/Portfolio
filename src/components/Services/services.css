@@ -112,13 +112,11 @@
     font-size: var(--small-font-size);
 }
 
-/* ACTIVE MODAL */
 .active-modal {
     opacity: 1;
     visibility: visible;
 }
 
-/* BREAK POINTS */
 @media screen and (max-width: 992px) {
     .services__container {
         grid-template-columns: repeat(3, 218px);
