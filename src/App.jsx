@@ -20,7 +20,6 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 3000,
       once: true,
     });
   }, []);
@@ -29,13 +28,13 @@ function App() {
     <>
       <Header />
       <main className='main'>
-        <div data-aos="fade-up" data-aos-duration="1000"><Home /></div>
-        <div data-aos="fade-up" data-aos-duration="1000"><About /></div>
-        <div data-aos="fade-up" data-aos-duration="1000"><Skills /></div>
-        <div data-aos="fade-up" data-aos-duration="1000"><Services /></div>
-        <div data-aos="fade-up" data-aos-duration="1000"><Qualification /></div>
-        <div data-aos="fade-up" data-aos-duration="1000"><Portfolio /></div>
-        <div data-aos="fade-up" data-aos-duration="1000"><Contact /></div>
+        <div data-aos="fade-up" data-aos-duration="2000"><Home /></div>
+        <div data-aos="fade-up" data-aos-duration="2000"><About /></div>
+        <div data-aos="fade-up" data-aos-duration="2000"><Skills /></div>
+        <div data-aos="fade-up" data-aos-duration="2000"><Services /></div>
+        <div data-aos="fade-up" data-aos-duration="2000"><Qualification /></div>
+        <div data-aos="zoom-in-up" data-aos-duration="2000"><Portfolio /></div>
+        <div data-aos="zoom-in-up" data-aos-duration="3000"><Contact /></div>
       </main>
       <Footer />
       <ScrollUp />

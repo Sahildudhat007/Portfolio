@@ -4,7 +4,7 @@ function Data() {
     return (
         <>
             <div className="home__data">
-                <h1 className="home__title">
+                <h1 className="home__title outlined-text">
                     Sahil Dudhat
                 </h1>
                 <h3 className="home__subtitle">

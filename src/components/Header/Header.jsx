@@ -23,7 +23,7 @@ function Header() {
         <>
             <header className="header">
                 <nav className="nav container">
-                    <a href="index.html" className="nav__logo">
+                    <a href="home" className="nav__logo">
                         Sahil Dudhat
                     </a>
                     <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
