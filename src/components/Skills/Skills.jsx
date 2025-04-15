@@ -12,9 +12,9 @@ function Skills() {
             <section className="skills section" id="skills">
                 <h2 className="section__title">Skills</h2>
                 <span className="section__subtitle">Technical Lvl</span>
-                <div className="skills__container container grid">
+                <div className="skills__container">
                     <TechnicalSkills />
-                    <Backend />
+                    {/* <Backend /> */}
                 </div>
             </section>
         </>

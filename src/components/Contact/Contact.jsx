@@ -78,7 +78,7 @@ function Contact() {
                                 <textarea name="project" cols="30" rows="10" className="contact__form-input" placeholder="Provide some project details..."></textarea>
                             </div>
 
-                            <button type="submit" href="#contact" className="button button--flex">
+                            <button type="submit" href="#contact" className="button button--flex ring-animation">
                                 Send Message
                                 <svg
                                     className="button__icon"

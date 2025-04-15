@@ -15,13 +15,13 @@ function About() {
                 <h2 className="section__title">About Me</h2>
                 <span className="section__subtitle">A short introduction</span>
                 <div className="about__container container grid">
-                    <img src={profile1} alt="about" className="about__img" />
+                    <img src={profile1} alt="about" className="about__img" data-aos="fade-right" />
                     <div className="about__data">
                         <Info />
                         <p className="about__description">
                             I create applications highlighting minimal design and friendly UI/UX interfaces.
                         </p>
-                        <a download="" href={CV} className="button button--flex">
+                        <a download="" href={CV} className="button button--flex ring-animation">
                             Download CV
                             <svg
                                 className="button__icon"

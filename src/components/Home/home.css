@@ -58,6 +58,29 @@
     margin-bottom: var(--mb-3);
 }
 
+.ring-animation:hover {
+    display: inline-flex;
+    align-items: center;
+    background-color: #9fbc49;
+    color: white;
+    border-radius: 1rem;
+    animation: ring 1.5s infinite ease-in-out;
+    transform-origin: center;
+  }
+
+  @keyframes ring {
+    0% { transform: rotate(0); }
+    10% { transform: rotate(3deg); }
+    20% { transform: rotate(-3deg); }
+    30% { transform: rotate(3deg); }
+    40% { transform: rotate(-3deg); }
+    50% { transform: rotate(2deg); }
+    60% { transform: rotate(-2deg); }
+    70% { transform: rotate(1deg); }
+    80% { transform: rotate(-1deg); }
+    100% { transform: rotate(0); }
+  }
+
 .home__img {
     background: url(../../assets/person-developing.png);
     background-repeat: no-repeat;

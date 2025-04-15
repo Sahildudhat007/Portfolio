@@ -14,7 +14,7 @@ function Data() {
                     Front-end developer dedicated to design and creative solutions.
                 </p>
 
-                <a href="#contact" className="button button--flex">
+                <a href="#contact" className="button button--flex ring-animation">
                     Say Hello
                     <svg
                         className="button__icon"
