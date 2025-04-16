@@ -20,43 +20,57 @@ function TechnicalSkills() {
                 <div className="skills__box">
                     <div className="skills__group">
                         <div className="skills__data" data-aos="zoom-in-up" data-aos-duration="2000">
-                            <img src={html} alt="" />
+                            <div className='skill_img'>
+                                <img src={html} alt="" />
+                            </div>
                             <div>
                                 <h3 className="skills__name">HTML</h3>
                             </div>
                         </div>
                         <div className="skills__data" data-aos="zoom-in-up" data-aos-duration="2000">
-                            <img src={css} alt="" />
+                            <div className='skill_img'>
+                                <img src={css} alt="" />
+                            </div>
                             <div>
                                 <h3 className="skills__name">CSS</h3>
                             </div>
                         </div>
                         <div className="skills__data" data-aos="zoom-in-up" data-aos-duration="2000">
-                            <img src={sass} alt="" />
+                            <div className='skill_img'>
+                                <img src={sass} alt="" />
+                            </div>
                             <div>
                                 <h3 className="skills__name">SASS</h3>
                             </div>
                         </div>
                         <div className="skills__data" data-aos="zoom-in-up" data-aos-duration="2000">
-                            <img src={bootstrap} alt="" />
+                            <div className='skill_img'>
+                                <img src={bootstrap} alt="" />
+                            </div>
                             <div>
                                 <h3 className="skills__name">BOOTSTRAP</h3>
                             </div>
                         </div>
                         <div className="skills__data" data-aos="zoom-in-up" data-aos-duration="2000">
-                            <img src={tailwindcss} alt="" />
+                            <div className='skill_img'>
+                                <img src={tailwindcss} alt="" />
+                            </div>
                             <div>
                                 <h3 className="skills__name">TALWIND CSS</h3>
                             </div>
                         </div>
                         <div className="skills__data" data-aos="zoom-in-up" data-aos-duration="2000">
-                            <img src={javascript} alt="" />
+                            <div className='skill_img'>
+                                <img src={javascript} alt="" />
+                            </div>
                             <div>
                                 <h3 className="skills__name">JAVASCRIPT</h3>
                             </div>
                         </div>
                         <div className="skills__data" data-aos="zoom-in-up" data-aos-duration="2000">
-                            <img src={reactjs} alt="" />
+                            <div className='skill_img'>
+                                <img src={reactjs} alt="" />
+                            </div>
                             <div>
                                 <h3 className="skills__name">React-Js</h3>
                             </div>

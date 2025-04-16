@@ -26,7 +26,7 @@
 
 .skills__group {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 1.5rem;
     align-items: center;
     justify-items: center;
@@ -43,11 +43,18 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.skills__data .skill_img {
+    width: 150px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .skills__data img {
-    width: 200px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
-    margin-bottom: 0.5rem;
 }
 
 .skills svg {
@@ -79,7 +86,7 @@
     }
 
     .skills__group {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 

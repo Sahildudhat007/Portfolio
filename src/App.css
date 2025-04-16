@@ -176,9 +176,9 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  body {
+  /* body {
     margin: 00 var(--header-height) 0;
-  }
+  } */
 
   .section {
     padding: 2rem 0 4rem;

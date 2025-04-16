@@ -193,9 +193,8 @@
     }
 
     .home__img {
-        width: 250px;
-        height: 250px;
-        box-shadow: inset 0 0 0 8px rgb(225 225 225 / 30%);
+        width: 450px;
+        height: 450px;
     }
 
     .home__scroll {
@@ -217,9 +216,8 @@
     .home__img {
         order: initial;
         justify-self: initial;
-        box-shadow: inset 0 0 0 6px rgb(225 225 225 / 30%);
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
     }
 
     .home__data {
@@ -233,8 +231,8 @@
 
 @media screen and (max-width: 350px) {
     .home__img {
-        width: 180px;
-        height: 180px;
+        width: 200px;
+        height: 200px;
     }
 
     .home__hand {
